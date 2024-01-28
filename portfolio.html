@@ -58,21 +58,25 @@
         <div class="container">
           <h1 class="title-web-studio visually-hidden">Portfolio</h1>
           <ul class="list buttons-list">
-            <li>
-              <button class="button" type="button">All</button>
-            </li>
-            <li>
-              <button class="button" type="button">Web Site</button>
-            </li>
-            <li>
-              <button class="button" type="button">App</button>
-            </li>
-            <li>
-              <button class="button" type="button">Design</button>
-            </li>
-            <li>
-              <button class="button" type="button">Marketing</button>
-            </li>
+            <div class="button-portfolio">
+              <li>
+                <button class="button" type="button">All</button>
+              </li>
+              <li>
+                <button class="button" type="button">Web Site</button>
+              </li>
+              <li>
+                <button class="button" type="button">App</button>
+              </li>
+            </div>
+            <div class="button-portfolio">
+              <li>
+                <button class="button" type="button">Design</button>
+              </li>
+              <li>
+                <button class="button" type="button">Marketing</button>
+              </li>
+            </div>
           </ul>
           <ul class="list card-set">
             <!-- Row 1 -->
@@ -325,14 +329,16 @@
         <div class="form-div">
           <p class="subscribe-paragraf">Subscribe</p>
           <form autocomplete="on" name="footer-form" class="footer-form">
-            <label class="social_media_section">
-              <input
-                type="email"
-                name="email"
-                placeholder="E-mail"
-                class="input-footer"
-              />
-            </label>
+            <div class="footer-label">
+              <label class="social_media_section">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  class="input-footer"
+                />
+              </label>
+            </div>
             <button type="submit" class="button-form-footer">
               Subscribe
               <svg width="24" height="24" class="svg-form-footer">
