@@ -102,6 +102,7 @@ body {
 }
 .font {
   font-style: normal;
+  /* display: flex; */
   display : none;
 }
 
@@ -928,7 +929,7 @@ input:checked + .label-checkbox span:first-child{
   display : flex;
 }
 .address-list{
-  padding :21px 0 0 251px;
+  margin: 24px 0 24px 325px;
   gap : 40px;
   display: flex;
 }
@@ -984,4 +985,46 @@ input:checked + .label-checkbox span:first-child{
   .container{
     width: 1158px;
   }
+  .div-icon{
+  display:flex;
+  }
+  .list {
+  display:flex;
+  }
+  .p-body-section-two {
+    padding: 0;
+  }
+  .title-three {
+    font-size:20px;
+  }
+  .p-body-section-two-last-element{
+    padding: 0px;
+  }
+  .section-three{
+    display: flex;
+  }
+  .customers{
+    padding: var(--padding-desktop)
+  }
+  .section-four{
+    padding : var(--padding-desktop)
+  }
+  .font{
+    display: flex;
+  }
+  .team-member-list {
+  margin: 0
+  }
+  .section-two{
+    padding: var(--padding-desktop);
+  }
+  .customers-list{
+    display:flex;
+    justify-content: center;
+  }
+  .svg-flex{
+    padding: 0;
+    gap: 24px;
+  }
+  
 }
