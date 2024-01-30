@@ -322,7 +322,7 @@ padding-bottom:72px;
   border-radius: 0px 0px 4px 4px;
   display: block;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  width: 100%;
+  /* width: 100%; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 72px
 }
@@ -982,6 +982,48 @@ input:checked + .label-checkbox span:first-child{
   .section-two{
     padding: var(--padding-container)
   }
+  .hero-section-two{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap :24px;
+  }
+  .list{
+    display: flex;
+  }
+  .section-two-li{
+    max-width: 356px;
+    width:100%;
+    min-width: 264px;
+  }
+  .hero-section-three{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+  }
+  .section-four{
+    display: flex;
+  }
+  .container-section-four{
+    width: auto;
+  }
+  .container{
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .team-member-list:last-child{
+    margin-bottom: auto;
+  }
+  .customers-list{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 24px;
+  }
 }
 
 @media screen and (768px <= width <= 1158px) {
@@ -1056,4 +1098,5 @@ input:checked + .label-checkbox span:first-child{
   .section-one{
     padding: 188px 0;
   }
+  
 }
