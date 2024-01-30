@@ -535,7 +535,10 @@ padding-bottom:72px;
   height: 100%;
 }
 .customers-list{
-  /* display: flex; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 24px;
   list-style-type: none;
   padding: 0;
@@ -964,6 +967,11 @@ input:checked + .label-checkbox span:first-child{
   display: flex;
   gap: 24px;
 }
+.team-member-list{
+  text-align: center;
+  margin: auto;
+  margin-bottom: 72px;
+}
 @media screen and (428px <= width <= 768px) {
   .hero-link-ul{
     display: flex;
@@ -1087,11 +1095,29 @@ input:checked + .label-checkbox span:first-child{
   .subscribe-paragraf{
     text-align: left;
   }
+  .customers{
+    display: flex;
+    padding: 96px 0;
+    gap: 24px;
+  }
+  .svg-flex{
+    display:block;
+    padding: 0;
+  }
+  .footer-label{
+    padding: 0;
+  }
+  .input-footer{
+    width: 264px;
+  }
 }
 
 @media screen and (768px <= width <= 1158px) {
   :root{
     --padding-desktop: 120px 0;
+  }
+  .input-footer{
+    width: 264px;
   }
   .hero-link-ul{
     display: flex;
@@ -1161,5 +1187,17 @@ input:checked + .label-checkbox span:first-child{
   .section-one{
     padding: 188px 0;
   }
-  
+  .card-set{
+    display:flex;
+    margin: 0;
+    column-gap:24px;
+    row-gap:48px;
+  }
+  .item{
+    width: calc((100% - 48px) / 3);
+    padding: 0;
+  }
+  .section-portfolio{
+    padding-bottom: 120px;
+  }
 }
