@@ -979,7 +979,7 @@ input:checked + .label-checkbox span:first-child{
   }
    .ham-menu-div{
     display: flex;
-    /* padding: 16px 0px 16px 165px; */
+    padding: 16px 0px 16px 0px;
     align-items:center;
   }
   .burger-menu-div{
