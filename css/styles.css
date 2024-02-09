@@ -997,8 +997,7 @@ input:checked + .label-checkbox span:first-child{
       visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
    } 
   .burger-menu-button {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    position: absolute;
+        position: absolute;
     top: 24px;
     right: 24px;
     width: 24px;
@@ -1007,10 +1006,11 @@ input:checked + .label-checkbox span:first-child{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .nav-burger-menu-ul {
     margin: 80px 0px 284px 40px;
@@ -1092,8 +1092,9 @@ input:checked + .label-checkbox span:first-child{
   height: 16px;
 }
 .is-open {
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  visibility: visible;
+  display: block;
   pointer-events: none;
 }
 .menu-toggle {
